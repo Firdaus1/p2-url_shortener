@@ -1,0 +1,54 @@
+html
+{
+    font-family: "Open Sans", Sans-Serif;
+    font-size: 13pt;
+    background-color: #cafcff;
+    background-image: url("b.jpg");
+
+}
+h1
+{
+    font-size: 1.3rem;
+}
+h2
+{
+    font-size: 1.1rem;
+}
+.error
+{
+    color: #FF000F;
+}
+.pure-button-primary
+{
+    background-color: cornflowerblue;
+}
+.pure-button-secondary
+{
+    background-color: #99a922;
+}
+
+.sidebar div{
+    margin-left: 1.0em;
+}
+
+.blog-index article h1 {
+    font-size: 1.1rem;
+}
+.blog-index article h2 {
+    font-size: 0.9rem;
+}
+.page-position {
+    height: 200px;
+}
+.page-position2 {
+    font-style:italic;
+    margin: 45px 0 0 300px
+}
+.box input {
+    margin-top:30px;
+    width:360px;
+    padding:10px;
+    border-radius:10px;
+    border:5px solid #EE872A;
+    font-size:120%;
+}

@@ -1,0 +1,12 @@
+{% extends 'basic.html' %}
+{% block title %}Log In{% endblock %}
+{% block content %}
+<h1>URL shortener </h1>
+
+<div>
+    <form action="/shorten" method="POST">
+        url <input name="url" type="text" width="120">
+        <input type="submit" class="pure-button pure-button-secondary" name="Shorten" value="Shorten">
+    </form>
+</div>
+{% endblock %}
